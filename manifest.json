@@ -1,0 +1,21 @@
+{
+  "name": "SimpleTrack",
+  "version": "1.0",
+  "description": "Simple Tracker Ext to log visited websites",
+  "background_page" : "background.html",
+  "options_page": "options.html",
+  "icons": {
+    "16" : "images/binoculars.png"
+  },
+  "browser_action": {
+    "default_icon": "images/binoculars.png",
+    "default_title": "SimpleTrack",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "history",
+    "sessions",
+    "topSites"
+  ]
+}
